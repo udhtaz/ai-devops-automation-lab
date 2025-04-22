@@ -169,3 +169,7 @@ if __name__ == "__main__":
     # Print pandas table
     print("\nTabulated Results:")
     print(results['dataframe'].to_string())
+
+### END OF script ###
+# This script analyzes a directory for code files and checks which ones need unit tests.
+# It counts lines of code, number of functions, and checks for existing test files.
